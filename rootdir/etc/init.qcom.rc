@@ -43,6 +43,8 @@ on init
     # Support legacy paths
     symlink /sdcard /storage/sdcard0
 
+    write /sys/module/qpnp_rtc/parameters/poweron_alarm 1
+
 on fs
     export LD_SHIM_LIBS /system/lib/hw/audio.primary.msm8996.so|libshim_audio.so
 
