@@ -7,7 +7,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
 
-# Wifi
+# Wi-Fi
 PRODUCT_PACKAGES += \
     ipacm \
     ipacm-diag \
@@ -16,7 +16,6 @@ PRODUCT_PACKAGES += \
     libQWiFiSoftApCfg
 
 PRODUCT_PACKAGES += \
-    dhcpcd.conf \
     hostapd \
     wpa_supplicant \
     wpa_supplicant.conf \
