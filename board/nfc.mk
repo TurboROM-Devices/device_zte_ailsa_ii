@@ -1,2 +1,0 @@
-# NFC
-TARGET_USES_NQ_NFC := true
